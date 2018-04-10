@@ -7,6 +7,7 @@ import Projects from './components/Projects.js'
 import About from './components/About.js'
 import Footer from './components/Footer.js'
 import './App.css';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 class App extends Component {
   render() {
