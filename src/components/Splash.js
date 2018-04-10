@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cover from '../assets/coverimage_pinkhue.png';
+import cover from '../assets/coverimage.png';
 
 class Splash extends Component {
   render() {
