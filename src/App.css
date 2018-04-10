@@ -39,7 +39,7 @@ li {
 
 .AA-Logo {
   height: 30px;
-  width: 30px;
+  width: 35px;
   align-content: left;
   padding: 30px;
 }
@@ -123,7 +123,7 @@ li {
 .area-tagline {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 5px;
   font-weight: 300;
 }
@@ -131,8 +131,9 @@ li {
 .area-description {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: 300;
 }
 
 /* Process Styling */
@@ -149,7 +150,8 @@ li {
 
 .Process-image {
   max-width: 75%;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 /* Projects Styling */
@@ -161,6 +163,41 @@ li {
   grid-row-end: 6;
   width: 100%;
   text-align: center;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin: 40px;
+}
+
+.one-container {
+  padding: 30px;
+  width: 300px;
+  height: 250px;
+}
+
+.Image {
+  height: 100px;
+  width: 100px;
+}
+
+.project-title {
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.project-description {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 /* About Styling */
@@ -177,7 +214,8 @@ li {
 
 .About-image {
   max-width: 75%;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 /* Footer Styling */
@@ -191,11 +229,17 @@ li {
     text-align: center;
   }
 
-.Contact li {
+.Contact {
   list-style-type: none;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+}
+
+.Contact li {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .Logo {
@@ -209,4 +253,5 @@ li {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
   font-variant: small-caps;
+  padding: 0px;
 }

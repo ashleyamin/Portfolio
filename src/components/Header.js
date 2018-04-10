@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import aalogo from '../assets/Ashley-Amin-Logo.png';
+import aalogo from '../assets/logo.png';
 import '../App.css';
 
 class Header extends Component {
