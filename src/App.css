@@ -1,28 +1,118 @@
 .App {
   text-align: center;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 5% 15% 15% 20% 30% 10% 5%;
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* Header Styling */
+
+.Header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
   padding: 20px;
-  color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+/* Splash Styling */
+
+.Splash {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
+.Cover {
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* Expertise Styling */
+
+.Expertise {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 100%;
+  text-align: center;
+}
+
+/* Process Styling */
+
+.Process {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 100%;
+  text-align: center;
+}
+
+/* Projects Styling */
+
+.Projects {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  width: 100%;
+  text-align: center;
+}
+
+/* About Styling */
+
+.About {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+/* Footer Styling */
+
+.Footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    width: 100%;
+    text-align: center;
+  }
+
+.Contact li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.Logo {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.Copyright {
+  font-size: 12px;
+  color: #4A4A4A;
 }
