@@ -2,7 +2,7 @@
   text-align: center;
   display: grid;
   height: 100%;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 5% 90% 5%;
   grid-template-rows: 5% 15% 15% 20% 30% 10% 5%;
   margin: 0;
 }
@@ -16,10 +16,14 @@
   grid-row-end: 2;
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul {
-  padding: 0px;
+  padding-right: 15px;
 }
 
 li {
@@ -27,6 +31,17 @@ li {
   display: inline-block;
   margin: 0;
   padding: 20px;
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+.AA-Logo {
+  height: 30px;
+  width: 30px;
+  align-content: left;
+  padding: 30px;
 }
 
 /* Splash Styling */
@@ -42,6 +57,21 @@ li {
 
 .Cover {
   max-width: 100%;
+}
+
+/* Common Elements Styling */
+
+.Title {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+.Intro {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 12px;
 }
 
 /* Expertise Styling */
@@ -115,4 +145,6 @@ li {
 .Copyright {
   font-size: 12px;
   color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-variant: small-caps;
 }
