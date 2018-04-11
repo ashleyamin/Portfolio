@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import essentials from '../assets/essentials.png';
 import up2us from '../assets/up2us.jpg';
 import delaware from '../assets/delaware.jpg';
@@ -18,47 +20,47 @@ class Projects extends Component {
         <div className="project-container">
           <div className="one-container">
             <img className="Image-essentials" src={essentials} />
-            <p className="project-title">The Essentials Prototype</p>
+            <p className="project-title"><Link className="project-title" to='/essentials'>The Essentials Prototype</Link></p>
             <p className="project-description">Code: Nodejs, Google Login API</p>
             </div>
             <div className="one-container">
               <img className="Image" src={up2us} />
-              <p className="project-title">UP2US Sports</p>
+              <p className="project-title"><Link className="project-title" to='/up2us'>UP2US Sports</Link></p>
               <p className="project-description">Strategy: Design Research, Ideation</p>
             </div>
             <div className="one-container">
               <img className="Image" src={delaware} />
-              <p className="project-title">State Gov, Child Support Services</p>
+              <p className="project-title"><Link className="project-title" to='/stategov'>State Gov, Child Support Services</Link></p>
               <p className="project-description">Design: Customer Interviews, Personas, Journey Maps</p>
             </div>
             <div className="one-container">
               <img className="Image" src={diplomacy} />
-              <p className="project-title">U.S. Diplomacy</p>
+              <p className="project-title"><Link className="project-title" to='/diplomacy'>U.S. Diplomacy</Link></p>
               <p className="project-description">Strategy: Digital Strategy, Mobile Product Development</p>
             </div>
             <div className="one-container">
               <img className="Image-stoop" src={stoop} />
-              <p className="project-title">The Stoop</p>
+              <p className="project-title"><Link className="project-title" to='/stoop'>The Stoop</Link></p>
               <p className="project-description">Code: Ruby and Rails</p>
             </div>
             <div className="one-container">
               <img className="Image" src={prepare} />
-              <p className="project-title">Prepare for a Medical Crisis</p>
+              <p className="project-title"><Link className="project-title" to='/prepare'>Prepare for a Medical Crisis</Link></p>
               <p className="project-description">Design: Wireframing, User Testing</p>
             </div>
             <div className="one-container">
               <img className="Image" src={caretaker} />
-              <p className="project-title">Caretaker Support Prototype</p>
+              <p className="project-title"><Link className="project-title" to='/caretaker'>Caretaker Support Prototype</Link></p>
               <p className="project-description">Design: Service blueprint, design research</p>
             </div>
             <div className="one-container">
               <img className="Image" src={alasys} />
-              <p className="project-title">Alasys</p>
+              <p className="project-title"><Link className="project-title" to='/alasys'>Alasys</Link></p>
               <p className="project-description">Strategy: New Product Business Case Development and Analysis</p>
             </div>
             <div className="one-container">
               <img className="Image-pet" src={adopt} />
-              <p className="project-title">Adopt a Pet</p>
+              <p className="project-title"><Link className="project-title" to='/adoptapet'>Adopt a Pet</Link></p>
               <p className="project-description">Code: Reactjs, Webpack, Nodejs</p>
             </div>
         </div>

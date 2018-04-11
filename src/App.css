@@ -44,6 +44,46 @@ li {
   padding: 30px;
 }
 
+.project-link:link {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: #D17171 !important;
+}
+
+.project-link:visited {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+a.about-link:link {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.about-link:hover {
+  text-decoation: none;
+  color: #D17171 !important;
+}
+
+a.about-link:visited {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.contact-email:link {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.contact-email:hover {
+  text-decoration: none;
+  color: #D17171;
+}
+
 /* Splash Styling */
 
 .Splash {
@@ -210,11 +250,42 @@ li {
   font-weight: 400;
 }
 
+.project-title:link {
+  text-decoration: none;
+  color: #D17171 !important;
+}
+
+.project-title:hover {
+  text-decoration: none;
+  color: #4A4A4A !important;
+}
+
+.project-title:visited {
+  text-decoration: none;
+  color: #D17171;
+}
+
 .project-description {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 14px;
+}
+
+/* Essentials Project Styling */
+
+.Essentials {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-essentials {
+  height: 50%;
+  width: 50%;
 }
 
 /* About Styling */
@@ -226,13 +297,70 @@ li {
   grid-row-end: 7;
   width: 100%;
   text-align: center;
-  background-color: #E8E7E7;
 }
 
 .About-image {
   max-width: 75%;
   margin-bottom: 60px;
   margin-top: 60px;
+}
+
+.Manifesto-intro {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  margin-top: 300px;
+}
+
+.Manifesto {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: 300;
+}
+
+.Manifesto-outro {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: 400;
+  margin-bottom: 300px;
+}
+
+.About-container {
+  background-color: #E8E7E7;
+}
+
+.About-title {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-variant: small-caps;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 100px;
+}
+
+.About-intro {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 /* Footer Styling */
