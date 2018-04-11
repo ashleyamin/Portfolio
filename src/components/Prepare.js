@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import essentials from '../assets/essentials.png';
+import prepare from '../assets/prepare.png';
+
 
 class Prepare extends Component {
   render() {
     return (
-      <div className="Essentials">
+      <div className="Prepare">
         <h1 className="Title">Prepare for a Medical Crisis</h1>
-        <img className="Image-essentials" src={essentials} />
+        <img className="Image-big-prepare" src={prepare} />
         <p className="project-description">Code: Nodejs, Google Login API</p>
       </div>
     );

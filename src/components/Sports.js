@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import essentials from '../assets/essentials.png';
+import up2us from '../assets/up2us.jpg';
 
 class Sports extends Component {
   render() {
     return (
-      <div className="Essentials">
-        <h1 className="Title">Up2Us Sports</h1>
-        <img className="Image-essentials" src={essentials} />
+      <div className="Sports">
+        <img className="Image-big-sports" src={up2us} />
+        <h1 className="Title">up2us sports</h1>
         <p className="project-description">Code: Nodejs, Google Login API</p>
       </div>
     );

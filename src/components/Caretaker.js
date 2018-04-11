@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import essentials from '../assets/essentials.png';
+import caretaker from '../assets/caretaker.png';
+
 
 class Caretaker extends Component {
   render() {
     return (
-      <div className="Essentials">
-        <h1 className="Title">Caretaker Support</h1>
-        <img className="Image-essentials" src={essentials} />
+      <div className="Caretaker">
+        <img className="Image-big-caretaker" src={caretaker} />
+        <h1 className="Title">caretaker support prototype</h1>
         <p className="project-description">Code: Nodejs, Google Login API</p>
       </div>
     );

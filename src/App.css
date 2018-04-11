@@ -272,6 +272,123 @@ a.about-link:visited {
   font-size: 14px;
 }
 
+/* Adopt Project Styling */
+
+.Adopt {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-adopt {
+  height: 50%;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.project-description-long {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.Learn-more-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: #D17171;
+}
+
+.Github-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: #D17171;
+}
+
+/* Alasys Project Styling */
+
+.Alasys {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-alasys {
+  height: 50%;
+  width: 50%;
+}
+
+/* Caretaker Project Styling */
+
+.Caretaker {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-caretaker {
+  height: 50%;
+  width: 50%;
+}
+
+/* Diplomacy Project Styling */
+
+.Diplomacy {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-diplomacy {
+  height: 50%;
+  width: 50%;
+}
+
 /* Essentials Project Styling */
 
 .Essentials {
@@ -284,8 +401,178 @@ a.about-link:visited {
 }
 
 .Image-big-essentials {
+  margin-top: 150px;
   height: 50%;
   width: 50%;
+}
+
+.project-description-long {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.Learn-more-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: #D17171;
+}
+
+.Github-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: #D17171;
+}
+
+/* Prepare Project Styling */
+
+.Prepare {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-prepare {
+  height: 50%;
+  width: 50%;
+}
+
+/* Sports Project Styling */
+
+.Sports {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-sports {
+  height: 50%;
+  width: 50%;
+}
+
+/* Stategov Project Styling */
+
+.Stategov {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-stategov {
+  height: 50%;
+  width: 50%;
+}
+
+/* Stoop Project Styling */
+
+.Stoop {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 100%;
+  text-align: center;
+}
+
+.Image-big-stoop {
+  height: 50%;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.project-description-long {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.Learn-more-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Learn-more-button:hover {
+  color: white;
+  background-color: #D17171;
+}
+
+.Github-button {
+  display: inline-block;
+  margin-right: 30px;
+  color: #D17171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #D17171;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Github-button:hover {
+  color: white;
+  background-color: #D17171;
 }
 
 /* About Styling */
