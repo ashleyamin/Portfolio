@@ -7,7 +7,7 @@ class Sports extends Component {
       <div className="Sports">
         <img className="Image-big-sports" src={up2us} />
         <h1 className="Title">up2us sports</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Strategy: Design Research, Ideation</p>
       </div>
     );
   }

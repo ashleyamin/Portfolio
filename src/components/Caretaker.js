@@ -8,7 +8,7 @@ class Caretaker extends Component {
       <div className="Caretaker">
         <img className="Image-big-caretaker" src={caretaker} />
         <h1 className="Title">caretaker support prototype</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Design: Service blueprint, Design Research</p>
       </div>
     );
   }

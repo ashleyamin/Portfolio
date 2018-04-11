@@ -7,7 +7,7 @@ class Adopt extends Component {
       <div className="Adopt">
         <img className="Image-big-adopt" src={adopt} />
         <h1 className="Title">adopt a pet</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Code: Reactjs, Webpack, Nodejs</p>
         <div className="project-description-long">
               Making it easier to find and adopt more puppies!
               A group project in our web development immersive program, the PuppyFinder App was built

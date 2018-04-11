@@ -8,7 +8,7 @@ class Diplomacy extends Component {
       <div className="Diplomacy">
         <img className="Image-big-diplomacy" src={diplomacy} />
         <h1 className="Title">us diplomacy</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Strategy: Digital Strategy, Mobile Product Development</p>
       </div>
     );
   }

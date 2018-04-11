@@ -7,7 +7,7 @@ class Stategov extends Component {
       <div className="Stategov">
         <img className="Image-big-stategov" src={delaware} />
         <h1 className="Title">state gov, child care services</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Design: User Research, Personas, Journey Maps</p>
       </div>
     );
   }

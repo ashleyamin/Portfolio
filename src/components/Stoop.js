@@ -8,7 +8,7 @@ class Stoop extends Component {
       <div className="Stoop">
         <img className="Image-big-stoop" src={stoop} />
         <h1 className="Title">the stoop app</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
+        <p className="project-description">Code: Ruby and Rails</p>
         <div className="project-description-long">
         The Stoop App is a collaborative tool that assists individuals in identifying
         and sharing experiences about civictech, government and community provided benefits, products

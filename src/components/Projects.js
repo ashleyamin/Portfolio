@@ -31,7 +31,7 @@ class Projects extends Component {
             <div className="one-container">
               <img className="Image" src={delaware} />
               <p className="project-title"><Link className="project-title" to='/stategov'>State Gov, Child Support Services</Link></p>
-              <p className="project-description">Design: Customer Interviews, Personas, Journey Maps</p>
+              <p className="project-description">Design: User Research, Personas, Journey Maps</p>
             </div>
             <div className="one-container">
               <img className="Image" src={diplomacy} />
@@ -51,12 +51,12 @@ class Projects extends Component {
             <div className="one-container">
               <img className="Image" src={caretaker} />
               <p className="project-title"><Link className="project-title" to='/caretaker'>Caretaker Support Prototype</Link></p>
-              <p className="project-description">Design: Service blueprint, design research</p>
+              <p className="project-description">Design: Service blueprint, Design Research</p>
             </div>
             <div className="one-container">
               <img className="Image" src={alasys} />
               <p className="project-title"><Link className="project-title" to='/alasys'>Alasys</Link></p>
-              <p className="project-description">Strategy: New Product Business Case Development and Analysis</p>
+              <p className="project-description">Strategy: New Product Market Entry Strategy and Analysis</p>
             </div>
             <div className="one-container">
               <img className="Image-pet" src={adopt} />

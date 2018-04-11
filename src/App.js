@@ -29,7 +29,7 @@ class App extends Component {
           <Route exact path="/" component={Splash} />
           <Route exact path="/" component={Expertise} />
           <Route exact path="/" component={Process} />
-          <Route exact path="/" component={Projects} />
+          <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/essentials" component={Essentials} />
           <Route exact path="/up2us" component={Sports} />

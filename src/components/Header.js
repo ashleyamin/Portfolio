@@ -9,7 +9,8 @@ class Header extends Component {
       <div className="Header">
         <Link className="project-link" to='/'><img className="AA-Logo" src={aalogo} /></Link>
         <ul className="Menu">
-          <li><Link className="project-link" to='/'>expertise + projects</Link></li>
+          <li><Link className="project-link" to='/'>expertise + process</Link></li>
+          <li><Link className="project-link" to='/projects'>projects</Link></li>
           <li><Link className="about-link" to='/about'>about</Link></li>
           <li><a className="contact-email" href="mailto:ashley.starks@gmail.com">contact</a></li>
         </ul>
