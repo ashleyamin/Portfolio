@@ -67,6 +67,7 @@ li {
   font-variant: small-caps;
   font-size: 30px;
   font-weight: 400;
+  padding: 30px;
 }
 
 .Intro {
@@ -173,6 +174,7 @@ li {
   align-items: center;
   align-content: center;
   margin: 40px;
+  margin-bottom: 100px;
 }
 
 .one-container {
@@ -182,8 +184,23 @@ li {
 }
 
 .Image {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.Image-pet {
+  height: 200px;
+  width: 300px;
+}
+
+.Image-stoop {
+  height: 200px;
+  width: 250px;
+}
+
+.Image-essentials {
+  height: 200px;
+  width: 240px;
 }
 
 .project-title {
