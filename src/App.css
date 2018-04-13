@@ -374,15 +374,6 @@ a.about-link:visited {
   margin-right: 150px;
   margin-bottom: 50px;
 }
-/*
-.Approach {
-  color: #4A4A4A;
-  font-family: 'Tajawal', sans-serif;
-  font-variant: small-caps;
-  font-size: 30px;
-  font-weight: 400;
-  padding: 100px;
-} */
 
 .method {
   height: 100%;
@@ -530,8 +521,26 @@ a.about-link:visited {
 }
 
 .Image-big-sports {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.tagline-sports {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.project-description-long-sports {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 /* Stategov Project Styling */
