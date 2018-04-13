@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="About">
         <p className="Manifesto-intro">I believe in the underdogs and the hustlers,
-          the early birds and the night owls, friends in low places, flyover country
+          the early birds and the night owls, the gogetters and aredoers,
            and the resiliency of the American spirit.
         </p>
         <p className="Manifesto">
@@ -17,10 +17,10 @@ class About extends Component {
            I believe in yes. I believe in getting back up. I believe in beating the odds.
            I believe all of us deserve a level playing field. I believe in questioning everything.
            I believe success is earned through hard work. I believe in setting goals, crushing them
-           and setting more goals. I believe heart is the difference between those who attempt
-           and those who achieve.
+           and setting more goals.
         </p>
-        <p className="Manifesto-outro">I believe in humanity.</p>
+        <p className="Manifesto-outro">I believe heart is the difference between those who attempt
+        and those who achieve.</p>
         <div className="About-container">
           <p className="About-title">ashley amin</p>
           <p className="About-intro">I’m a cuthroat minimalist, making sure every detail is accounted
