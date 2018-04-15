@@ -525,6 +525,11 @@ a.about-link:visited {
   width: 100%;
 }
 
+.Image-big-sports-prototype {
+  height: 50%;
+  width: 50%;
+}
+
 .tagline-sports {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
