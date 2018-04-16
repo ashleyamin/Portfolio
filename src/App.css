@@ -436,9 +436,9 @@ a.about-link:visited {
 }
 
 .Image-big-essentials {
-  margin-top: 150px;
-  height: 50%;
-  width: 50%;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
 }
 
 .project-description-long {
@@ -451,8 +451,11 @@ a.about-link:visited {
   margin-bottom: 50px;
 }
 
-.Learn-more-button {
+.buttons {
   display: inline-block;
+}
+
+.Learn-more-button {
   margin-right: 30px;
   color: #D17171;
   font-family: 'Tajawal', sans-serif;
@@ -473,7 +476,6 @@ a.about-link:visited {
 }
 
 .Github-button {
-  display: inline-block;
   margin-right: 30px;
   color: #D17171;
   font-family: 'Tajawal', sans-serif;
