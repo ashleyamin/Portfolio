@@ -219,8 +219,11 @@ a.about-link:visited {
 
 .one-container {
   padding: 30px;
-  width: 300px;
+  width: 290px;
   height: 250px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .Image {
@@ -420,8 +423,8 @@ a.about-link:visited {
 }
 
 .Image-big-diplomacy {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Essentials Project Styling */
