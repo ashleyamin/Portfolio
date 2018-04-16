@@ -44,11 +44,6 @@ class Projects extends Component {
               <p className="project-description">Code: Ruby and Rails</p>
             </div>
             <div className="one-container">
-              <img className="Image" src={prepare} />
-              <p className="project-title"><Link className="project-title" to='/prepare'>Prepare for a Medical Crisis</Link></p>
-              <p className="project-description">Design: Wireframing, User Testing</p>
-            </div>
-            <div className="one-container">
               <img className="Image" src={caretaker} />
               <p className="project-title"><Link className="project-title" to='/caretaker'>Caretaker Support Prototype</Link></p>
               <p className="project-description">Design: Service Design, Design Research</p>

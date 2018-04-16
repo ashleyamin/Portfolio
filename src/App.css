@@ -423,8 +423,16 @@ a.about-link:visited {
 }
 
 .Image-big-diplomacy {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
+}
+
+.disclaimer-diplomacy {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 50px;
 }
 
 /* Essentials Project Styling */
