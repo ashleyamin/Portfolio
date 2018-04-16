@@ -11,7 +11,7 @@ class Stoop extends Component {
         <p className="tagline-essentials">Code: Ruby and Rails</p>
         <div className="project-description-long">
         Inspired by the growing number of civic and political activism digital products and services
-        available for citizens and orgnizers, the stoop app prototype intends to be a collaborative tool
+        available for citizens and organizers, the stoop app prototype intends to be a collaborative tool
         (e.g. Yelp, Product Hunt) that assists individuals in identifying and sharing experiences
         and thoughts on these products in NYC.
         <br />

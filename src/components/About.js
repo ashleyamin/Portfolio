@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="About">
         <p className="Manifesto-intro">I believe in the underdogs and the hustlers,
-          the early birds and the night owls, the gogetters and aredoers,
+          the early birds and the night owls, the doers and gogetters,
            and the resiliency of the American spirit.
         </p>
         <p className="Manifesto">

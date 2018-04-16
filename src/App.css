@@ -258,6 +258,16 @@ a.about-link:visited {
   color: #D17171 !important;
 }
 
+.email-link:link {
+  text-decoration: none;
+  color: #4A4A4A !important;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: #D17171 !important;
+}
+
 .project-title:hover {
   text-decoration: none;
   color: #4A4A4A !important;

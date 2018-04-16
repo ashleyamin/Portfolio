@@ -16,7 +16,7 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <h1 className="Title">my projects</h1>
-        <p className="Intro">A curated selection of my latest projects in strategy, design and development. <br /> Interested in seeing more, <a href="mailto:ashley.starks@gmail.com">email me</a>.</p>
+        <p className="Intro">A curated selection of my latest projects in strategy, design and development. <br /> Interested in seeing more, <a className="email-link" href="mailto:ashley.starks@gmail.com">email me</a>.</p>
         <div className="project-container">
           <div className="one-container">
             <img className="Image-essentials" src={essentials} />
