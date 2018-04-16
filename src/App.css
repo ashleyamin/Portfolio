@@ -441,6 +441,24 @@ a.about-link:visited {
   width: 100%;
 }
 
+.tagline-essentials {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.project-description-long-essentials {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
 .project-description-long {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
@@ -563,7 +581,34 @@ a.about-link:visited {
 
 .Image-big-stategov {
   height: 50%;
-  width: 50%;
+  width: 100%;
+}
+
+.tagline-stategov {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.disclaimer {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 100px;
+  padding: 100px;
+}
+
+.project-description-long-stategov {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 /* Stoop Project Styling */

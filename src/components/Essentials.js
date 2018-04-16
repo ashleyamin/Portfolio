@@ -14,8 +14,8 @@ class Essentials extends Component {
     return (
       <div className="Essentials">
         <h1 className="Title">the essentials prototype</h1>
-        <p className="project-description">Code: Nodejs, Google Login API</p>
-        <div className="project-description-long">
+        <p className="tagline-essentials">Code: Nodejs, Google Login API</p>
+        <div className="project-description-long-essentials">
               41% of 50+ consumers faced a major medical event in the past five years.
               A medical event can occur at anytime and you may need the help of a loved
               one to manage the administrative parts of your life when you are unable to do so
