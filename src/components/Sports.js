@@ -10,6 +10,8 @@ import overview from '../assets/sports/overview.png';
 import process1 from '../assets/sports/process.png';
 import process2 from '../assets/sports/process2.png';
 import process3 from '../assets/sports/process3.png';
+import output from '../assets/sports/output.png';
+import how from '../assets/sports/how.png';
 
 
 
@@ -42,8 +44,10 @@ class Sports extends Component {
         <img className="Image-big-sports" src={process2} />
         <img className="Image-big-sports" src={process3} />
         <img className="Image-big-sports" src={coaches} />
+        <img className="Image-big-sports" src={how} />
         <img className="Image-big-sports" src={brainstorm} />
-        <img className="Image-big-sports-prototype" src={prototype} />
+        <img className="Image-big-sports" src={prototype} />
+        <img className="Image-big-sports" src={output} />
       </div>
     );
   }
