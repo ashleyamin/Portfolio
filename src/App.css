@@ -287,6 +287,11 @@ a.about-link:visited {
 }
 
 .Image-big-adopt {
+  height: 100%;
+  width: 100%;
+}
+
+.Image-big-adopt-cover {
   height: 50%;
   width: 50%;
   margin-top: 150px;
