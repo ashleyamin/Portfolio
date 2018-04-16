@@ -16,7 +16,7 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <h1 className="Title">my projects</h1>
-        <p className="Intro">A curated selection of my latest projects in strategy, design and development. <br /> Interested in seeing more, email me.</p>
+        <p className="Intro">A curated selection of my latest projects in strategy, design and development. <br /> Interested in seeing more, <a href="mailto:ashley.starks@gmail.com">email me</a>.</p>
         <div className="project-container">
           <div className="one-container">
             <img className="Image-essentials" src={essentials} />
@@ -40,13 +40,13 @@ class Projects extends Component {
             </div>
             <div className="one-container">
               <img className="Image-stoop" src={stoop} />
-              <p className="project-title"><Link className="project-title" to='/stoop'>The Stoop</Link></p>
+              <p className="project-title"><Link className="project-title" to='/stoop'>The Stoop App Prototype</Link></p>
               <p className="project-description">Code: Ruby and Rails</p>
             </div>
             <div className="one-container">
               <img className="Image" src={caretaker} />
-              <p className="project-title"><Link className="project-title" to='/caretaker'>Caretaker Support Prototype</Link></p>
-              <p className="project-description">Design: Service Design, Design Research</p>
+              <p className="project-title"><Link className="project-title" to='/caretaker'>Caretaker Support Service Prototype</Link></p>
+              <p className="project-description">Design: Service Design, User Research, Prototyping</p>
             </div>
             <div className="one-container">
               <img className="Image" src={alasys} />
@@ -55,7 +55,7 @@ class Projects extends Component {
             </div>
             <div className="one-container">
               <img className="Image-pet" src={adopt} />
-              <p className="project-title"><Link className="project-title" to='/adoptapet'>Adopt a Pet</Link></p>
+              <p className="project-title"><Link className="project-title" to='/adoptapet'>Adopt a Pet Prototype</Link></p>
               <p className="project-description">Code: Reactjs, Webpack, Nodejs</p>
             </div>
         </div>

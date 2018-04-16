@@ -412,8 +412,32 @@ a.about-link:visited {
 }
 
 .Image-big-caretaker {
+  height: 100%;
+  width: 100%;
+}
+
+.Image-big-caretaker-action {
   height: 50%;
   width: 50%;
+  margin-top: 50px;
+}
+
+.tagline-caretaker {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.project-description-long-caretaker {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
 }
 
 /* Diplomacy Project Styling */
