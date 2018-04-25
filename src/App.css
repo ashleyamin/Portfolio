@@ -84,6 +84,18 @@ a.about-link:visited {
   color: #D17171;
 }
 
+@media screen and (max-width: 500px) {
+  li {
+    float: none;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+  }
+  .AA-Logo {
+    display: none;
+  }
+}
+
 /* Splash Styling */
 
 .Splash {
@@ -121,6 +133,14 @@ a.about-link:visited {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  .Intro {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 /* Expertise Styling */
 
 .Expertise {
@@ -139,6 +159,12 @@ a.about-link:visited {
   align-items: center;
   align-content: center;
   margin: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .area-container {
+    margin-bottom: 60px;
+  }
 }
 
 .content-container {
@@ -175,6 +201,15 @@ a.about-link:visited {
   font-size: 13px;
   margin-top: 5px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  .area-tagline {
+    font-size: 10px;
+  }
+  .area-description {
+    font-size: 8px;
+  }
 }
 
 /* Process Styling */
@@ -781,6 +816,26 @@ a.about-link:visited {
   margin-bottom: 300px;
 }
 
+@media screen and (max-width: 500px) {
+  .Manifesto-intro {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+  }
+  .Manifesto {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .Manifesto-outro {
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 100px;
+  }
+}
+
 .About-container {
   background-color: #E8E7E7;
 }
@@ -803,6 +858,15 @@ a.about-link:visited {
   padding-right: 250px;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .About-intro {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+  }
 }
 
 /* Footer Styling */
@@ -833,6 +897,12 @@ a.about-link:visited {
   width: 20px;
   height: 20px;
   padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .Contact li {
+    display: inline-block;
+  }
 }
 
 .Copyright {
