@@ -20,7 +20,7 @@ class Sports extends Component {
     return (
       <div className="Sports">
         <h1 className="Title">up2us sports</h1>
-        <p className="tagline-sports">Design Research, Ideation, Prototyping</p>
+        <p className="tagline-sports">Strategy: Design Research, Ideation, Prototyping</p>
         <div className="project-description-long-sports">
           Up2Us Sports is the nationwide leader in sports-based youth development (SBYD).
           Up2Us Sports hardnesses the power of sports to reduce youth violence, promote health,

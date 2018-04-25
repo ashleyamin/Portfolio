@@ -12,7 +12,7 @@ class Adopt extends Component {
         <img className="Image-big-adopt-cover" src={adopt} />
         <h1 className="Title">adopt a pet prototype</h1>
         <p className="project-description">Code: Reactjs, Webpack, Nodejs</p>
-        <div className="project-description-long">
+        <div className="project-description-long-adopt">
               A CRUD App, using React and utilizing the Pet Finder API. A user can search for
               dogs to adopt by breed and zipcode. When the user finds a dog they may like,
               they can save it to a favorites list and edit their interest in the dog, add notes

@@ -7,8 +7,8 @@ class Diplomacy extends Component {
     return (
         <div className="Diplomacy">
           <h1 className="Title">united states diplomacy</h1>
-          <p className="tagline-stategov">Strategy: Digital Strategy, Mobile Product Development</p>
-          <div className="project-description-long-stategov">
+          <p className="tagline-diplomacy">Strategy: Digital Strategy, Mobile Product Development</p>
+          <div className="project-description-long-diplomacy">
             A federal government organization was looking to equip it's global workforce with the latest
             technologies to enable mobile diplomacy. We supported the organization's efforts to develop a mobile
             strategy that gave workers access to information and systems anytime, anywhere. We helped the

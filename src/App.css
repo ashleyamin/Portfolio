@@ -163,7 +163,7 @@ a.about-link:visited {
 
 @media screen and (max-width: 500px) {
   .area-container {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
 }
 
@@ -342,7 +342,7 @@ a.about-link:visited {
   margin-top: 150px;
 }
 
-.project-description-long {
+.project-description-long-adopt {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
@@ -350,6 +350,15 @@ a.about-link:visited {
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-description-long-adopt {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 .Learn-more-button {
@@ -428,6 +437,15 @@ a.about-link:visited {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 500px) {
+  .project-description-long-alasys {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+}
+
 .method {
   height: 100%;
   width: 100%;
@@ -485,6 +503,15 @@ a.about-link:visited {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 500px) {
+  .project-description-long-caretaker {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+}
+
 /* Diplomacy Project Styling */
 
 .Diplomacy {
@@ -507,6 +534,33 @@ a.about-link:visited {
   font-weight: 400;
   font-size: 12px;
   padding: 50px;
+}
+
+.tagline-diplomacy {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: 100px;
+}
+
+.project-description-long-diplomacy {
+  color: #4A4A4A;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-description-long-diplomacy {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 /* Essentials Project Styling */
@@ -544,14 +598,13 @@ a.about-link:visited {
   margin-bottom: 50px;
 }
 
-.project-description-long {
-  color: #4A4A4A;
-  font-family: 'Tajawal', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 50px;
+@media screen and (max-width: 500px) {
+  .project-description-long-essentials {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 .buttons {
@@ -600,7 +653,7 @@ a.about-link:visited {
 
 /* Prepare Project Styling */
 
-.Prepare {
+/* .Prepare {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 6;
@@ -612,7 +665,7 @@ a.about-link:visited {
 .Image-big-prepare {
   height: 50%;
   width: 50%;
-}
+} */
 
 /* Sports Project Styling */
 
@@ -651,6 +704,15 @@ a.about-link:visited {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-description-long-sports {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 /* Stategov Project Styling */
@@ -696,6 +758,20 @@ a.about-link:visited {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 500px) {
+  .project-description-long-stategov {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+  .disclaimer {
+    font-size: 12px;
+    margin: 10px;
+    padding: 50px;
+  }
+}
+
 /* Stoop Project Styling */
 
 .Stoop {
@@ -713,7 +789,7 @@ a.about-link:visited {
   margin-top: 150px;
 }
 
-.project-description-long {
+.project-description-long-stoop {
   color: #4A4A4A;
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
@@ -721,6 +797,15 @@ a.about-link:visited {
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .project-description-long-stoop {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 .Learn-more-button {
